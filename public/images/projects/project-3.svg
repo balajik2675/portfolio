@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Project placeholder">
+  <rect width="1200" height="750" fill="#0E1117"/>
+  <rect x="70" y="90" width="1060" height="80" rx="16" fill="#1B2330"/>
+  <rect x="70" y="200" width="330" height="440" rx="16" fill="#1B2330"/>
+  <rect x="430" y="200" width="700" height="440" rx="16" fill="#1B2330"/>
+  <rect x="100" y="118" width="140" height="24" rx="8" fill="#1D5FFF"/>
+  <text x="600" y="430" text-anchor="middle" fill="#9CA3AF" font-family="Arial, sans-serif" font-size="28">CMS layout</text>
+</svg>

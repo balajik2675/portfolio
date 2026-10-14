@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-hero text-white font-body antialiased;
+}
+
+/* Visible keyboard focus for links, buttons, and form fields */
+:focus-visible {
+  outline: 2px solid #1d5fff;
+  outline-offset: 3px;
+}
+
+::selection {
+  background: #1d5fff;
+  color: #fff;
+}
+
+/* Hide default number input arrows if we add any later */
+input,
+textarea {
+  @apply font-body;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
